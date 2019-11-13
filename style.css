@@ -143,6 +143,16 @@ main>.avertissement {
     font-size: 30px;
 }
 
+main>.last_avertissement {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 48px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFB05A;
+}
+
 main span {
     font-weight: 700;
     color: #FFB05A;

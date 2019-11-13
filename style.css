@@ -1,5 +1,6 @@
 * {
     margin: auto;
+    user-select: none;
 }
 
 body {
@@ -11,7 +12,17 @@ header {
     width: 100%;
     background-color: black;
     height: 144px;
+}
 
+.timer{
+    color: white;
+    background-color: black;
+    font-family: "soleil", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    position: fixed;
+    padding: 15px 30px 15px 30px;
+    border-radius: 12px;
 }
 
 .logo_index {
@@ -39,7 +50,6 @@ header>img {
     height: 144px;
     align-items: center;
     color: white;
-    user-select: none;
 }
 
 .index_header {
@@ -51,12 +61,10 @@ header>img {
     height: 144px;
     align-items: center;
     color: white;
-    user-select: none;
 }
 
 section {
     width: 964px;
-    user-select: none;
 }
 
 h2 {
@@ -110,13 +118,12 @@ section>form>div>label {
     margin-left: 8px;
 }
 
-.main_contexte {
+.main {
     margin-top: 56px;
     max-width: 1160px !important;
-    user-select: none;
 }
 
-.main_contexte>p {
+.main>p {
     font-family: "soleil", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -126,7 +133,7 @@ section>form>div>label {
     text-align: justify;
 }
 
-.main_contexte>#last_p {
+main>.avertissement {
     font-family: soleil, sans-serif;
     font-weight: 500;
     font-style: italic;
@@ -134,16 +141,16 @@ section>form>div>label {
     font-size: 30px;
 }
 
-.main_contexte>#last_p>span {
+main span {
     font-weight: 700;
     color: #FFB05A;
 }
 
-.main_contexte ul {
+.main ul {
     padding: 0;
 }
 
-.main_contexte>ul>li {
+.main>ul>li {
     font-family: "soleil", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -152,7 +159,7 @@ section>form>div>label {
     list-style: none;
 }
 
-.main_contexte>ul>li:before {
+.main>ul>li:before {
     content: "- ";
 }
 
@@ -174,7 +181,6 @@ section>form>div>label {
     justify-content: center;
     transition: .3s ease;
     display: flex;
-    user-select: none;
 }
 
 .next a:hover {

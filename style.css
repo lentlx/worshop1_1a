@@ -1,0 +1,186 @@
+* {
+    margin: auto;
+}
+
+body {
+    width: 1440px;
+    padding-bottom: 5%;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 144px;
+
+}
+
+.logo_index {
+    margin-left: 112px;
+}
+
+#logo_qcm {
+    margin-left: 218px;
+}
+
+header>img {
+    width: 144px;
+    height: 144px;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+.qcm_header {
+    font-family: "soleil", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    display: flex;
+    margin-left: 238px;
+    height: 144px;
+    align-items: center;
+    color: white;
+    user-select: none;
+}
+
+.index_header {
+    font-family: "soleil", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    display: flex;
+    margin-left: 116px;
+    height: 144px;
+    align-items: center;
+    color: white;
+    user-select: none;
+}
+
+section {
+    width: 964px;
+    user-select: none;
+}
+
+h2 {
+    font-family: "soleil", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: black;
+    margin-top: 48px;
+
+}
+
+section>p {
+    font-family: "soleil", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 16px;
+    color: black;
+}
+
+section>form>div {
+    margin-top: 16px;
+}
+
+section>form>div>input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border: 2px black solid;
+    border-radius: 12px;
+    height: 32px;
+    width: 32px;
+    background: black;
+    transition: .3s;
+    outline: none;
+}
+
+section>form>div>input[type="checkbox"]:checked {
+    background: #FFB05A;
+    margin: 0px;
+    transition: .3s;
+    outline: none;
+}
+
+section>form>div>label {
+    font-family: "soleil", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+    vertical-align: top;
+    margin-left: 8px;
+}
+
+.main_contexte {
+    margin-top: 56px;
+    max-width: 1160px !important;
+    user-select: none;
+}
+
+.main_contexte>p {
+    font-family: "soleil", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 16px;
+    color: black;
+    text-align: justify;
+}
+
+.main_contexte>#last_p {
+    font-family: soleil, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 48px;
+    font-size: 30px;
+}
+
+.main_contexte>#last_p>span {
+    font-weight: 700;
+    color: #FFB05A;
+}
+
+.main_contexte ul {
+    padding: 0;
+}
+
+.main_contexte>ul>li {
+    font-family: "soleil", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    list-style: none;
+}
+
+.main_contexte>ul>li:before {
+    content: "- ";
+}
+
+.next a {
+    font-family: 'soleil', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 25px 50px;
+    background: linear-gradient(to bottom, black 50%, #FFB05A 50%);
+    background-size: 100% 200%;
+    border-radius: 12px;
+    border: black solid 2px;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    letter-spacing: 2px;
+    margin-top: 48px;
+    justify-content: center;
+    transition: .3s ease;
+    display: flex;
+    user-select: none;
+}
+
+.next a:hover {
+    background: linear-gradient(to top, #FFB05A 50%, black 50%);
+    background-size: 100% 200%;
+    background-position: bottom;
+    color: white;
+    transition: .3s ease;
+}

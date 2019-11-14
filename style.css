@@ -1,9 +1,9 @@
 * {
     margin: auto;
-
 }
 
-html, body {
+html,
+body {
     width: 1440px;
     padding-bottom: 5%;
 }
@@ -235,7 +235,8 @@ main span {
 
 @media (max-width: 1440px) {
 
-    html, body {
+    html,
+    body {
         width: 320px;
     }
 
@@ -337,7 +338,7 @@ main span {
         font-size: 25px;
     }
 
-    .resultats{
+    .resultats {
         width: 300px;
     }
 

@@ -3,7 +3,7 @@
 
 }
 
-body {
+html, body {
     width: 1440px;
     padding-bottom: 5%;
 }
@@ -235,7 +235,7 @@ main span {
 
 @media (max-width: 1440px) {
 
-    body {
+    html, body {
         width: 320px;
     }
 

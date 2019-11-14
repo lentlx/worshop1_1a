@@ -30,7 +30,7 @@ header {
     margin-left: 112px;
 }
 
-.logo_index_main{
+.logo_index_main {
     display: none;
 }
 
@@ -75,7 +75,7 @@ section {
 h2 {
     font-family: "soleil", sans-serif;
     font-weight: 800;
-    font-size: 3vmax;
+    font-size: 40px;
     color: black;
     margin-top: 48px;
 
@@ -158,6 +158,12 @@ section>form>div>label {
     margin-top: 16px;
     color: black;
     text-align: justify;
+}
+
+.resultats {
+    text-align: center !important;
+    width: 834px;
+    margin-top: 48px !important;
 }
 
 main>.avertissement {
@@ -267,7 +273,7 @@ main span {
         display: none;
     }
 
-    .logo_index_main{
+    .logo_index_main {
         display: flex;
         justify-content: center;
         height: 200px;

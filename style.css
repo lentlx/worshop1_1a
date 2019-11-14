@@ -1,6 +1,6 @@
 * {
     margin: auto;
-    user-select: none;
+    
 }
 
 body {
@@ -90,7 +90,7 @@ section>form>div {
     margin-top: 16px;
 }
 
-section>form>div>input[type=checkbox] {
+section>form>div>input[type="checkbox"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
@@ -109,6 +109,26 @@ section>form>div>input[type="checkbox"]:checked {
     transition: .3s;
     outline: none;
 }
+section>form>div>input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border: 2px black solid;
+    border-radius: 16px;
+    height: 32px;
+    width: 32px;
+    background: black;
+    transition: .3s;
+    outline: none;
+}
+
+section>form>div>input[type="radio"]:checked {
+    background: #FFB05A;
+    margin: 0px;
+    transition: .3s;
+    outline: none;
+}
+
 
 section>form>div>label {
     font-family: "futura-pt", sans-serif;

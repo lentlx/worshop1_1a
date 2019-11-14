@@ -29,16 +29,16 @@
             <p>Que signifie l’acronyme “HTML” ?</p>
             <form>
                 <div>
-                    <input type="checkbox">
-                    <label for="scales">High Typography Markup Language</label>
+                    <input type="radio" name="acronymeHTML">
+                    <label>High Typography Markup Language</label>
                 </div>
                 <div>
-                    <input type="checkbox">
-                    <label for="scales">Hyper Text Markup Language</label>
+                    <input type="radio" name="acronymeHTML">
+                    <label>Hyper Text Markup Language</label>
                 </div>
                 <div>
-                    <input type="checkbox">
-                    <label for="scales">Hyper Typography Markup Language</label>
+                    <input type="radio" name="acronymeHTML">
+                    <label>Hyper Typography Markup Language</label>
                 </div>
 
             </form>
@@ -48,15 +48,15 @@
             <p>À quoi sert le CSS ?</p>
             <form>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="cssusage">
                     <label>Appliquer du style sur une page web</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="cssusage">
                     <label>Appliquer du style dans une application mobile</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="cssusage">
                     <label>Créer une base de données</label>
                 </div>
 
@@ -68,15 +68,15 @@
             </p>
             <form>
                 <div>
-                    <input type="checkbox">
-                    <label for=">Une page avec des animations</label>
+                    <input type="radio" name="pagedynamique">
+                    <label>Une page avec des animations</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="pagedynamique">
                     <label>Une page dont le contenu est généré au moment de la consultation</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="pagedynamique">
                     <label>Une page rapide à charger</label>
                 </div>
             </form>
@@ -112,16 +112,15 @@
             <form>
                 <div>
                     <input type="checkbox">
-                    <label>A modifier le style d'un élément lors du survol de la souris sur
-                        l'élément</label>
+                    <label>A modifier le style d'un élément lors du survol par la souris.</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>A modifier le style d'un lien dès qu'il a été cliqué</label>
+                    <label>A modifier le style d'un lien dès qu'il a été cliqué.</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>A modifier le style d'un élément avant qu'on l'ait cliqué</label>
+                    <label>A modifier le style d'un élément avant qu'on l'ait cliqué.</label>
                 </div>
 
             </form>
@@ -141,27 +140,28 @@
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>&lt;img href="mon-image.jpg" alt="Une image"></label>
+                    <label>&lt;img src="https://www.google.fr/google.png" alt="Une image"></label>
                 </div>
 
             </form>
         </section>
         <section class="section_qcm">
             <h2>Question 7</h2>
-            <p>Quelle est la différence majeure entre les éléments div et span ?
+            <p>
+                Avec quoi peut-on créer des animations sur une page web ?
             </p>
             <form>
                 <div>
                     <input type="checkbox">
-                    <label>L'élément span est de type block, l'élément div est de type inline</label>
+                    <label>HTML seulement</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>L'élément div est de type block, l'élément span est de type inline</label>
+                    <label>HTML + CSS</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>L'élément div sert de conteneur, au contraire de l'élément span</label>
+                    <label>HTML + JavaScript</label>
                 </div>
 
             </form>
@@ -172,17 +172,17 @@
             </p>
             <form>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question8">
                     <label>On doit donner une valeur unique à un attribut id mais pas à des attributs
                         class</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question8">
                     <label>On doit donner une valeur unique à un attribut class mais pas à des attributs
                         id</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question8">
                     <label>On doit donner une valeur unique à chaque attribut class et id dans une
                         page</label>
                 </div>
@@ -195,15 +195,15 @@
             </p>
             <form>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question9">
                     <label>L'élément form</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question9">
                     <label>L'élément input</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question9">
                     <label>L'élément label</label>
                 </div>
 
@@ -211,20 +211,21 @@
         </section>
         <section class="section_qcm">
             <h2>Question 10</h2>
-            <p>A quoi reconnaît-on les pseudo classes en CSS ?
+            <p>
+                En CSS : comment changer la couleur d’un texte en blanc ?
             </p>
             <form>
                 <div>
                     <input type="checkbox">
-                    <label>Elles commencent toutes par ":"</label>
+                    <label>color : white;</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>Elles commencent toutes par "::"</label>
+                    <label>color : #FFFFFF;</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>Elles possèdent toutes le mot "class" dans leur nom</label>
+                    <label>color : #fff;</label>
                 </div>
 
             </form>
@@ -235,15 +236,15 @@
             </p>
             <form>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question11">
                     <label>L'attribut selected</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question11">
                     <label>L'attribut autocomplete</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question11">
                     <label>L'attribut checked</label>
                 </div>
 
@@ -251,24 +252,25 @@
         </section>
         <section class="section_qcm">
             <h2>Question 12</h2>
-            <p>Qui inventa le HTML?
+            <p>
+                Trouvez le/les langage(s) interprété(s) directement par le navigateur ?
             </p>
             <form>
                 <div>
                     <input type="checkbox">
-                    <label>Timothy John Berners-Lee</label>
+                    <label>Python</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>Nigel Shadbolt</label>
+                    <label>CSS</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>Ted Turner</label>
+                    <label>C</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>Bill Gates</label>
+                    <label>JavaScript</label>
                 </div>
             </form>
         </section>
@@ -278,15 +280,15 @@
             </p>
             <form>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question13">
                     <label>Pour diminuer le nombre de requêtes envoyées au serveur</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question13">
                     <label>Par simplicité pour insérer des images</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question13">
                     <label>Car cela crée des images plus jolies</label>
                 </div>
 
@@ -298,15 +300,15 @@
             </p>
             <form>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question14">
                     <label>La taille de notre texte</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question14">
                     <label>1,5 fois la taille de notre texte</label>
                 </div>
                 <div>
-                    <input type="checkbox">
+                    <input type="radio" name="question14">
                     <label>2 fois la taille de notre texte</label>
                 </div>
 
@@ -319,15 +321,15 @@
             <form>
                 <div>
                     <input type="checkbox">
-                    <label>@media screen and max-width = 680px</label>
+                    <label>media screen and max-width = 680px { }</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>@media screen and (max-width: 680px)</label>
+                    <label>@media screen and (max-width: 680px) { }</label>
                 </div>
                 <div>
                     <input type="checkbox">
-                    <label>@media screen and (max-width = 680px)</label>
+                    <label>@media (max-width = 680px) { }</label>
                 </div>
 
             </form>

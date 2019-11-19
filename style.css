@@ -233,7 +233,7 @@ main span {
     transition: .3s ease;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1440px) { /* Permet de redimensionner la largeur de la page à 320px dès lors que la fenêtre de naviagtion de l'utilisateur est inférieure à 1440px en largeur. */
 
     html,
     body {
